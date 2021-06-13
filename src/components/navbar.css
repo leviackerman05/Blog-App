@@ -1,0 +1,28 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navbar-logo {
+    margin-left: 15px;
+		margin-top: 10px;
+		width: 35px;
+}
+
+.navbar-links {
+	display: flex;
+	width: 45%;
+	justify-content: space-evenly;
+	margin-right: 15px;
+	text-transform: uppercase;
+	color: grey;
+	font-size: 19px;
+	letter-spacing: 4px;
+}
+
+.navbar-links h5 {
+	font-weight: 500;
+}
