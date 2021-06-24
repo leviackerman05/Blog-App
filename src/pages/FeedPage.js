@@ -5,8 +5,8 @@ import "./FeedPage.css";
 const FeedPage = () => {
   return (
     <div className="blog">
+      <Navbar />
       <div className="header">
-        <Navbar />
         <div className="blog-heading">
           <h5>Travel and Lifestyle</h5>
           <h1>Become a wingman in one easy lesson!</h1>

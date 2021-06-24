@@ -1,5 +1,5 @@
 .blog {
-	/* display: flex; */
+	/* position: relative; */
 }
 .header {
 	background-color: white;
@@ -11,7 +11,7 @@
 }
 .body {
 	background-color: whitesmoke;
-	height: 100vh;
+	/* height: 100vh; */
 	position: relative;
 }
 
@@ -68,7 +68,9 @@
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.5;
 	font-size: larger;
+	color: rgb(87, 85, 85);
 	width: 45%;
-	text-align: justify;
+	text-align: left;
 	margin: 0 auto;
+	letter-spacing: 2px;
 }
